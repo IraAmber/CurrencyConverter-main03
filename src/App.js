@@ -32,8 +32,6 @@ function CurrencyConverter() {
           <AmountInput amount={amount} setAmount={setAmount} />
           <CurrencySelect
             id="from-currency-select"
-            type="number"
-            placeholder="Введіть значення"
             label="From:"
             currency={from}
             handleChange={handleFromChange}
@@ -53,11 +51,6 @@ function CurrencyConverter() {
             value={convertAmount}
             disabled
           />
-          <select id="to-currency-select" value={to} onChange={handleToChange}>
-            <option value="USD">USD</option>
-            <option value="EUR">EUR</option>
-            <option value="UAH">UAH</option>
-          </select>
         </div>
       </main>
     </section>
