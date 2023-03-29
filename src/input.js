@@ -8,7 +8,7 @@ function AmountInput({ amount, setAmount }) {
 
   return (
     <div>
-      <label htmlFor="from-currency">Amount:</label>
+      <label htmlFor="from-currency"> </label>
       <input
         id="from-currency"
         type="number"
