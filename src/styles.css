@@ -43,6 +43,10 @@ select {
   border: 1px solid var(--main-color);
 }
 
+select {
+  margin-top: 34px;
+}
+
 input[type="number"] {
   width: 100px;
 }
