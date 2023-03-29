@@ -32,13 +32,13 @@ function CurrencyConverter() {
           <AmountInput amount={amount} setAmount={setAmount} />
           <CurrencySelect
             id="from-currency-select"
-            label="From:"
+            //label="From:"
             currency={from}
             handleChange={handleFromChange}
           />
           <CurrencySelect
             id="to-currency-select"
-            label="To:"
+            //label="To:"
             currency={to}
             handleChange={handleToChange}
           />
