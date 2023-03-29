@@ -42,7 +42,15 @@ handleAmountChange(): змінює суму для конвертації
 ---
 
 на хостингу:
-https://candid-starship-6c0500.netlify.app/
-
+https://storied-sawine-10590b.netlify.app/
 
 ! API is not working (wrong key). I wrote to the support service.
+
+розділила структуру
+
+винесла апі в useExchangeRate
+
+ключ в окремий конфіг
+
+додала перевірку на введення від"ємного значення
+
