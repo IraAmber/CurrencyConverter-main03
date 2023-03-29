@@ -36,13 +36,7 @@ function CurrencyConverter() {
             currency={from}
             handleChange={handleFromChange}
           />
-          <CurrencySelect
-            id="to-currency-select"
-            //label="To:"
-            currency={to}
-            handleChange={handleToChange}
-          />
-           
+          
         <div>
           <label htmlFor="to-currency">To:</label>
           <input
@@ -52,6 +46,14 @@ function CurrencyConverter() {
             disabled
           />
         </div>
+        
+          <CurrencySelect
+            id="to-currency-select"
+            //label="To:"
+            currency={to}
+            handleChange={handleToChange}
+          />
+          
       </main>
     </section>
   );
